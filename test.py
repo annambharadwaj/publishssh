@@ -1,5 +1,5 @@
 #!/bin/python
-echo "today is $date"
+echo 'today is `date`'
 if [[ $? -eq 0 ]]; then
 echo "Status is $?"
 else 
